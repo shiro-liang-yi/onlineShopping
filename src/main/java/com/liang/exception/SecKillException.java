@@ -1,15 +1,16 @@
 package com.liang.exception;
 
 /**
- * 异常基类
+ *  秒杀基础的异常
+ * Created by liangshuai
  */
-public class SecKillException extends RuntimeException {
+public class SeckillException extends RuntimeException {
 
-    public SecKillException(String message){
+    public SeckillException(String message) {
         super(message);
     }
 
-    public SecKillException(String message, Throwable cause){
-        super(message,cause);
+    public SeckillException(String message, Throwable cause) {
+        super(message, cause);
     }
 }
